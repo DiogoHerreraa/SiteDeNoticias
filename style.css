@@ -5,37 +5,68 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#container{
+
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px ;
+    
+}
+
+.logo{
+
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
 }
 
 
-header{
-    border: 1px solid red;
-    text-align: center;
-    color: white;
-    background-color: blue;
-    height: 100px;
-    padding: 15px;
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+
+    margin-top: 30px;
+    background-color: #b10333 ;
+    float: left;
 
 }
 
-nav{
+#topo ul li {
 
-    border: 1px solid blue;
-    text-align: center;
-    padding: 30px;
-}
-
-
-li>a{
-    border: 1px solid green;
-    padding: 10px 10px;
-    background-color: #B1002F;
-    color: rgb(255, 255, 255);
+    float: left;
+    padding: 0.5px 1.1em;
+    color: #fff;
+    line-height: 2.1em;
     text-decoration: none;
-      
+    background: url(imagens/divisor.png) no-repeat left center;
 }
 
-li>a:hover{
-
-    background-color: #E00038;
+#topo ul li a:hover {
+    color: black;
 }
+
+
+body.home #navegacao a#home{
+
+     color: #fff;
+     background: #de003e;
+     cursor: text;
+
+
+
+}
+
