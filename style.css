@@ -59,18 +59,6 @@ ul{
     color: black;
 }
 
-
-
-/*body.home #navegacao a#home{
-
-     color: #fff;
-     background: #de003e;
-     cursor: text;
-
-
-
-}*/
-
 #topo ul a{
     text-decoration: none;
     color: white;
@@ -82,15 +70,17 @@ ul{
     margin-top: 60px; /*ajusto o espaçamento interno do meu conteudo*/
 }
 
+
+/*COLUNAS*/
 #tres-colunas #primario{
-    background-color: blue;
+    
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
 }
 
 #duas-colunas #primario{
-    background-color: blue;
+   
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
@@ -113,6 +103,7 @@ ul{
     float: left;
 }
 
+/*CAIXAS*/
 .caixa{
 
     margin: 10px 0;
@@ -125,6 +116,61 @@ h2{
     background: #294c71;
     color: #fff;
     padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+img{
+    border: 2px solid #bfbfbf;
+}
+
+/*conteudo principal*/
+
+/*formatar lateral*/
+
+#lateral ul a{
+
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+    color: #000;
+}
+
+label {
+
+    display: block;
+    cursor: pointer;
+}
+
+input{
+
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
 }
 
 
