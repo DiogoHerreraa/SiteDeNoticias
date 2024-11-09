@@ -174,6 +174,62 @@ input.submit{
 }
 
 
+/*formantando cabeçalhos*/
+h3{
+
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+
+}
+
+.destaque h3{
+
+    background-color: #870529;
+    color: #f5f5f5;
+}
+
+.destaque_entrevista h3{
+
+    background-color: #870529;
+    color: #000000;
+}
+
+
+/*formatando links de noticias*/
+
+#lista-noticias {
+
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+
+    float: left;
+    margin: 5px;
+
+}
+
+
+#lista-noticias li a h3{
+
+   text-decoration: none;
+   font-size: 0.8em;
+   color: blue;
+
+}
+
+
+#lista-noticias li a {
+    text-decoration: none;
+ 
+ }
+
+
+
 #container-rodape{
 
     background: #294c71;
